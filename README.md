@@ -21,53 +21,40 @@ to make generating responsive images a breeze.
 
 ## 1. Requirements
 
-The boilerplate needs [Node.js](https://nodejs.org/en/) to be installed on your system. It was tested with version 12
-and newer.
+The boilerplate needs [Node.js](https://nodejs.org/en/)
 
 ## 2. Quick Start
 
 1. Clone the repository into a new folder for your new project.
-
-   ```bash
-   git clone git@github.com:noreading/bootstrap5-webpack-boilerplate.git my-project
-   ```
+   Use terminal command "git clone  
 2. Remove the .git directory to add your own CVS later.
 
-   ```bash
-   rm -rf .git
-   ```
 
 3. Update the package.json.
 
-   ```JSON
+   JSON
       {
         "name": "my-project",
         "description": "A description of my new project",
         "author": "Your Name",
         "license": "MIT"
       }
-   ```
 
 4. Install needed dependencies
 
-   ```bash
-   npm install
-   ```
-
+  Use terminal command "npm install"
+  
 5. Run webpack
 
-   ```bash
-   npm run dev
-   ```
+
+   Use terminal command "npm run dev"
+
 
    The dev command will start Webpack and tell it to watch for changes in JS and SCSS files, to recompile the needed
    assets.
 
    If you want to compile all assets for production usage, run the following command.
-
-   ```bash
-   npm run build
-   ```
+   Use terminal command "npm run build"
 
    This command tells webpack to run in production mode and compiles all of the assets in a minified version, to deliver
    smaller files for your users.
