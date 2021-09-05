@@ -26,7 +26,7 @@ The boilerplate needs [Node.js](https://nodejs.org/en/)
 ## 2. Quick Start
 
 1. Clone the repository into a new folder for your new project.
-   Use terminal command "git clone  
+   Use terminal command "git clone https://github.com/GregoriMik/Bootstrap5Webpack5TemplateFiles "
 2. Remove the .git directory to add your own CVS later.
 
 
